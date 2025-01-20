@@ -17,13 +17,13 @@ function ProjectCardGroup() {
         <div className="col-md-6 col-lg-4">
           <div className="card shadow-sm mb-4">
             <a
-              href="./public/projects/Halifax-BusTracker/index.html"
+              href="https://github.com/NightmareJump/"
               target="_blank"
               rel="noreferrer"
             >
               <img
                 className="card-img-top"
-                src="https://picsum.photos/600/400?random=1"
+                src="https://github.com/NightmareJump/"
                 alt="Random"
               />
             </a>
@@ -35,7 +35,7 @@ function ProjectCardGroup() {
               </p>
               <div className="d-flex justify-content-between">
                 <a
-                  href="./public/projects/Halifax-BusTracker/index.html"
+                  href="https://github.com/NightmareJump/"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
@@ -43,7 +43,7 @@ function ProjectCardGroup() {
                   Demo
                 </a>
                 <a
-                  href="https://github.com/w0436300/Halifax-Bus-Tracker.git"
+                  href="https://github.com/NightmareJump/"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-secondary"
@@ -76,7 +76,7 @@ function ProjectCardGroup() {
               </p>
               <div className="d-flex justify-content-between">
                 <a
-                  href="./public/projects/Halifax-BusTracker/index.html"
+                  href="https://github.com/NightmareJump/"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
@@ -84,7 +84,7 @@ function ProjectCardGroup() {
                   Demo
                 </a>
                 <a
-                  href="https://github.com/w0436300/Halifax-Bus-Tracker.git"
+                  href="https://github.com/NightmareJump/"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-secondary"
@@ -162,7 +162,7 @@ function ProjectCardGroup() {
               </p>
               <div className="d-flex justify-content-between">
                 <a
-                  href="./public/projects/Halifax-BusTracker/index.html"
+                  href="https://github.com/NightmareJump/"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
@@ -170,7 +170,7 @@ function ProjectCardGroup() {
                   Demo
                 </a>
                 <a
-                  href="https://github.com/w0436300/Halifax-Bus-Tracker.git"
+                  href="https://github.com/NightmareJump/"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-secondary"
