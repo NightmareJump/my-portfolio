@@ -113,14 +113,14 @@ function ProjectCardGroup() {
               />
             </a>
             <div className="card-body">
-              <h5 className="card-title">Weather App</h5>
+              <h5 className="card-title">SkiResortWeather App</h5>
               <p className="card-text">
                 Provides current weather details by city, dynamically updates
                 the UI.
               </p>
               <div className="d-flex justify-content-between">
                 <a
-                  href="./public/projects/Halifax-BusTracker/index.html"
+                  href="https://github.com/NightmareJump/SkiResortWeather/tree/main"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
@@ -128,7 +128,7 @@ function ProjectCardGroup() {
                   Demo
                 </a>
                 <a
-                  href="https://github.com/w0436300/Halifax-Bus-Tracker.git"
+                  href="https://github.com/NightmareJump/SkiResortWeather/tree/main"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-secondary"
