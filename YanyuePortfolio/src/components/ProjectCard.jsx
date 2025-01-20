@@ -23,7 +23,7 @@ function ProjectCardGroup() {
             >
               <img
                 className="card-img-top"
-                src="https://github.com/NightmareJump/"
+                src="https://picsum.photos/600/400?random=2"
                 alt="Random"
               />
             </a>
