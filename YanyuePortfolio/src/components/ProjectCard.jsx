@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import bustrackerIMG from '../assets/img/bustracker.png'
 
 function ProjectCardGroup() {
   return (
@@ -17,13 +18,13 @@ function ProjectCardGroup() {
         <div className="col-md-6 col-lg-4">
           <div className="card shadow-sm mb-4">
             <a
-              href="https://github.com/NightmareJump/"
+              href="https://github.com/NightmareJump/HalifaxBusTracker"
               target="_blank"
               rel="noreferrer"
             >
               <img
                 className="card-img-top"
-                src="https://picsum.photos/600/400?random=2"
+                src={bustrackerIMG}
                 alt="Random"
               />
             </a>
@@ -35,7 +36,7 @@ function ProjectCardGroup() {
               </p>
               <div className="d-flex justify-content-between">
                 <a
-                  href="https://github.com/NightmareJump/"
+                  href="https://github.com/NightmareJump/HalifaxBusTracker"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
@@ -43,7 +44,7 @@ function ProjectCardGroup() {
                   Demo
                 </a>
                 <a
-                  href="https://github.com/NightmareJump/"
+                  href="https://github.com/NightmareJump/HalifaxBusTracker"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-secondary"
@@ -70,13 +71,13 @@ function ProjectCardGroup() {
               />
             </a>
             <div className="card-body">
-              <h5 className="card-title">Album management app</h5>
+              <h5 className="card-title">Online Chatroom</h5>
               <p className="card-text">
-                This app is built with MongoDB, Express, React, and Node.js.
+                This app is built with MongoDB, Express,Vite + React, Socket.IO and Node.js .
               </p>
               <div className="d-flex justify-content-between">
                 <a
-                  href="https://github.com/NightmareJump/"
+                  href="https://github.com/NightmareJump/chatRoom"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
@@ -84,7 +85,7 @@ function ProjectCardGroup() {
                   Demo
                 </a>
                 <a
-                  href="https://github.com/NightmareJump/"
+                  href="https://github.com/NightmareJump/chatRoom"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-secondary"
@@ -115,7 +116,7 @@ function ProjectCardGroup() {
             <div className="card-body">
               <h5 className="card-title">SkiResortWeather App</h5>
               <p className="card-text">
-                Provides current weather details by city, dynamically updates
+                Provides current weather details by ski Resort, dynamically updates
                 the UI.
               </p>
               <div className="d-flex justify-content-between">
@@ -155,14 +156,14 @@ function ProjectCardGroup() {
               />
             </a>
             <div className="card-body">
-              <h5 className="card-title">E-commerce App</h5>
+              <h5 className="card-title">E-shop Web</h5>
               <p className="card-text">
-                Built using Next.js and MongoDB for a full-stack e-commerce
+                Built using react, mySQL, Java and Spring Boot for a full-stack e-commerce
                 experience.
               </p>
               <div className="d-flex justify-content-between">
                 <a
-                  href="https://github.com/NightmareJump/"
+                  href="https://github.com/NightmareJump/AlimamaShopping"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-primary"
@@ -170,7 +171,7 @@ function ProjectCardGroup() {
                   Demo
                 </a>
                 <a
-                  href="https://github.com/NightmareJump/"
+                  href="https://github.com/NightmareJump/AlimamaShopping"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-secondary"
@@ -181,6 +182,52 @@ function ProjectCardGroup() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* 第二行：放置第 3 个、 第 4 个卡片 */}
+      <div className="row justify-content-center">
+        <div className="col-md-6 col-lg-4">
+          <div className="card shadow-sm mb-4">
+            <a
+              href="https://github.com/NightmareJump/ZombieWave/tree/main"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="card-img-top"
+                src="https://picsum.photos/600/400?random=3"
+                alt="Random"
+              />
+            </a>
+            <div className="card-body">
+              <h5 className="card-title">ZombieWave Unity 3D</h5>
+              <p className="card-text">
+                a unity 3D FPS game using C# with AIAgent 
+              </p>
+              <div className="d-flex justify-content-between">
+                <a
+                  href="https://youtu.be/E0mTpOKJgjw"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                  Demo
+                </a>
+                <a
+                  href="https://github.com/NightmareJump/ZombieWave/tree/main"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-secondary"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
       </div>
     </div>
   );
